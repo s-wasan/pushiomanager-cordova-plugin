@@ -1,0 +1,17 @@
+repositories{
+    jcenter()
+    flatDir{
+        dirs 'src/main/libs'
+    }
+}
+
+dependencies {
+    implementation (name: 'PushIOManager-6.47.1', ext: 'aar')
+}
+
+android {
+    packagingOptions {
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+    }
+}
