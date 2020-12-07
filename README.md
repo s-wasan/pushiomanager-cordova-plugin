@@ -74,13 +74,13 @@ Before installing the plugin, you must setup your app to receive push notificati
 The plugin can be installed with the Cordova CLI,
 
 ```shell
-cordova plugin add PATH_TO_cordova-plugin-pushiomanager_DIRECTORY
+cordova plugin add https://github.com/oracle/cordova-plugin-pushiomanager
 ```
 
 For Ionic,
 
 ```shell
-ionic cordova plugin add PATH_TO_cordova-plugin-pushiomanager_DIRECTORY
+ionic cordova plugin add https://github.com/oracle/cordova-plugin-pushiomanager
 ```
 
 ### Integration
