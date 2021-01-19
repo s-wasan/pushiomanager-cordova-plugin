@@ -32,6 +32,6 @@
         <source-file src="src/ios/NSArray+PIOConvert.m" />
         <header-file src="src/ios/NSDictionary+PIOConvert.h" />
         <source-file src="src/ios/NSDictionary+PIOConvert.m" />
-        <framework src="./frameworks/PushIOManager.framework" custom="true" />
+        <framework src="../frameworks/PushIOManager.framework" custom="true" />
     </platform>
 </plugin>
